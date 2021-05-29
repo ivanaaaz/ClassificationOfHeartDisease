@@ -1,5 +1,7 @@
 # ClassificationOfHeartDisease
 
+This project was done as part of the final graduate thesis in the bachelor studies of the faculty.
+
 Based on the given data on 250 patients, with certain characteristics or conditions (input variables), which of the remaining patients (47) will have or will not have certain coronary (ischemic) heart disease will be predicted. Namely, the machine, based on data on patients who have or do not have ischemic heart disease, learns how to predict the existence of ischemic heart disease in completely new or unknown patients based on their data.
 
 The data set used for training and testing was taken from a publicly available database (http://archive.ics.uci.edu/ml) containing information on 303 patients, and the condition of each patient was defined with 14 parameters.
