@@ -22,3 +22,6 @@ There are 13 input variables in this system
 13) Thallium (3 - normal; 6 - fixed defect; 7 - reversible defect)
 
 The predicted attribute has a value of 0 which represents = <50% narrowing of blood vessels, and a value of 1 => 50% narrowing of blood vessels, based on which patients are classified into healthy - 0 and sick (presence of ischemic heart disease) - 1. Therefore, there are two categories, healthy-class 0 and sick-class 1.
+
+To implement the classification algorithm using neural networks in MATLAB, a neural network with two hidden layers was used. The number of input attributes is 13, and the number of outputs is 2: 0-healthy, 1-sick. The number of data set instances is 297, 250 were used for network training, and 47 for testing.
+To implement the neural network cost function for two layers, the nnCostFunction function was used, which needs to be minimized. Feed-Forward Propagation neural network with and without regularization was applied. Network training was done through 300 iterations. The sigmoid function was used as the activation function.
