@@ -20,7 +20,7 @@ There are 13 input variables in this system
 9) Presence of angina (1 - yes; 0 - no)
 10) Cardiac response to activity
 11) A tilt of the top of the heart (1 - upsloping; 2 - flat; 3 - downsloping)
-12) Blood vessels (0 to 3)
+12) Blood vessels (0 to 3) 
 13) Thallium (3 - normal; 6 - fixed defect; 7 - reversible defect)
 
 The predicted attribute has a value of 0 which represents = <50% narrowing of blood vessels, and a value of 1 => 50% narrowing of blood vessels, based on which patients are classified into healthy - 0 and sick (presence of ischemic heart disease) - 1. Therefore, there are two categories, healthy-class 0 and sick-class 1.
